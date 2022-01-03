@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Rye&display=swap");
+* {
+  font-family: "Just Another Hand", cursive;
+  letter-spacing: 3px;
+   
+}
+
+body {
+  
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: lemonchiffon;
+  font-size: 80px;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 35px; 
+  }
+}
+h3 {
+  color: lemonchiffon;
+  font-size: 35px;
+}
+ 
+.formulario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input {
+  background-color: cornsilk;
+  width: 200px;
+  height: 25px;
+  text-align: center;
+  font-size: 29px;
+}
+ 
+.btn-add {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: greenyellow;
+  font-size: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.btn-add:hover {
+  color: rgb(255, 252, 47);
+}
+p {
+  color: greenyellow;
+  font-size: 50px;
+  
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 25px;
+    margin-left: -20px;
+  }
+}
+
+.Btn-delete {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: red;
+  font-size: 60px;
+  margin-left: 10px;
+}
+
+.Btn-delete:hover {
+  color: greenyellow;
+}
+
+@media only screen and (max-width: 500px) {
+  .Btn-delete {
+    margin-right: 30px;
+  }
+}
+
+
+
+
+
+.footer {
+  background-color: rgba(17, 17, 17, 0.63);
+  display: flex;
+  justify-content: center; 
+  flex-direction: row;
+  margin-top: 400px;
+}
+
+.link {
+  background-color: rgb(200, 200, 200);
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 8px;
+}
+
+.link:hover {
+  border: solid greenyellow;
+  border-width: 5px;
+  background-color: white;
+}
+.git {
+  background-color: rgb(200, 200, 200);
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 8px;
+}
+
+.git:hover {
+  border: solid greenyellow;
+  border-width: 5px;
+  background-color: white;
+}
